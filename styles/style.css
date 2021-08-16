@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+}
+.hero{
+
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+.hero h1{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 40px;
+    color: white;
+}
+.img1{
+    height: 500px;
+    width: 400px;
+}
+.slide-row{
+    display: flex;
+    width: 3200px;
+    transition: 0.55s;
+}
+.slide-col{
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+.user-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.user-img img{
+    height: 100%;
+    border-radius: 10px;
+}
+.user-text{
+    background: #2d3a59;
+    width: 520px;
+    height: 270px;
+    position: absolute;
+    left: %;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    color: #d3d4d6;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.user-text p{
+    font-size: 15px;
+    line-height: 24px;
+}
+.user-text h3{
+    margin: 35px 0 5px;
+    color: #fff;
+
+}
+.continer{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.indicator{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+}
+.btn{
+    display: inline-block;
+    height: 25px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background: black;
+    cursor: pointer;
+    
+}
+
+.active{
+    width: 45px;
+    
+}
